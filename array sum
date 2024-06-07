@@ -1,0 +1,19 @@
+
+    public static void main(String[] args) {
+        // Define an array
+        int[] arr = {1, 2, 3, 4, 5};
+        
+        // Call the sumArray method and print the result
+        int sum = sumArray(arr);
+        System.out.println("Sum of array elements: " + sum);
+    }
+    
+    // Method to find the sum of elements in the array
+    public static int sumArray(int[] arr) {
+        int sum = 0;
+        for (int num : arr) {
+            sum += num;
+        }
+        return sum;
+    }
+}
